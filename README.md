@@ -22,24 +22,25 @@ The smart home object detection system is built on top of the YOLOv3 deep learni
 Install dependencies:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 Download pre-trained YOLOv3 weights:
 
 ```bash
-Copy code
 wget https://pjreddie.com/media/files/yolov3.weights -O models/yolov3.weights
 ```
 Run the application:
 
 ```bash
-Copy code
 python smart_home_object_detection.py
 ```
 
-Usage
+## Usage
+
 Configure the system settings, including camera feeds, alert thresholds, and device integrations, by editing the config.yaml file.
+
 Start the object detection system by running the smart_home_object_detection.py script.
+
 Monitor object detection results through the provided web or mobile interface.
+
 Customize alerts and actions based on detected objects using the provided APIs or scripting capabilities.
